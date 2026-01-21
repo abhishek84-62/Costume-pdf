@@ -1,0 +1,19 @@
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+}
+
+.glass {
+  background: rgba(255,255,255,0.2);
+  backdrop-filter: blur(18px);
+  padding: 30px;
+  border-radius: 20px;
+  width: 280px;
+  text-align: center;
+}
+
+h1 { color: white; }
